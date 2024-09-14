@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f8f9fa;
+}
+
+.custom-item {
+    height: 480px;
+}
+
+.custom-image {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6)
+}
+
+
+a:link,
+a:visited {
+    color: #343a40;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 2rem;
+}
